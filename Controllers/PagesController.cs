@@ -2,7 +2,6 @@
 
 namespace AdminLte_By_Vrilsoft.Controllers
 {
-    [Route("[Controller]")]
     public class PagesController : Controller
     {
         public ActionResult News()
