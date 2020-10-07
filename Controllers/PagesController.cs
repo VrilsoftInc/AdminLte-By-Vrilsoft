@@ -5,7 +5,6 @@ namespace AdminLte_By_Vrilsoft.Controllers
     [Route("[Controller]")]
     public class PagesController : Controller
     {
-        [Route("NewsNow")]
         public ActionResult News()
         {
             return View();
@@ -13,7 +12,7 @@ namespace AdminLte_By_Vrilsoft.Controllers
 
         public ActionResult Articles()
         {
-            return View();
+            return View(); //Or you can integrate your model ArticlesViewModel for getting the username of the user who posted etc. That work takes place here.
         }
         public ActionResult Pages()
         {
